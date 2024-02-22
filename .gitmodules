@@ -4,3 +4,6 @@
 [submodule "Testclass1"]
 	path = Testclass1
 	url = https://github.com/MayavanKrishnanD/Testclass.git
+[submodule "Test1"]
+	path = Test1
+	url = https://github.com/MayavanKrishnanD/Test.git
