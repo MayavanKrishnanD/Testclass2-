@@ -19,8 +19,6 @@ public class Controller {
     public String test() {
         System.out.println("Value of mytest.name: " + myTestName);
         myTestBean.testMethod();
-        System.out.println("Value of server.port: " +myTestName );
-        myTestBean.test1();
         return "Value printed in log and test method called.";
     }
 

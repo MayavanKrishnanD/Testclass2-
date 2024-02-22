@@ -9,7 +9,4 @@ public class MyTestBean {
         System.out.println("Executing testMethod in MyTestBean");
     }
 
-        public void test1() {
-            System.out.println("Executing testMethod in MyTestBean");
-        }
     }
