@@ -1,12 +1,15 @@
 package io.springboot.mytest.Bean;
 
+import lombok.extern.java.Log;
 import org.springframework.stereotype.Component;
 
-@Component
 
+@Component
+@Log
 public class MyTestBean {
+
     public void testMethod() {
-        System.out.println("Executing testMethod in MyTestBean");
+        log.info("Executing testMethod in MyTestBean");
     }
 
     }
